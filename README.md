@@ -34,14 +34,5 @@ This repository contains end-to-end API test automation scripts built using **Po
 - Sending unsupported HTTP methods or malformed JSON payloads (`405 Method Not Allowed` / `422 Unprocessable Entity`).
 
 ---
-
-## 📂 Repository Structure
-
-```text
-├── Collection/
-│   └── API_Testing_Collection.json      # Exported Postman Collection with test assertions
-├── Environment/
-│   └── API_Environment.json             # Environment variables (Base URL, Tokens, IDs)
-├── Reports/
-│   └── Newman_Test_Report.html          # Generated HTML execution report
-└── README.md                            # Project documentation
+Live Test Execution Report
+- 🌐 **[View Positive Testing Report](https://Anshulkumar011.github.io/Github-API-Testing-Postman-/Reports/newman-positive-report.html)**
