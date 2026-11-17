@@ -1,0 +1,156 @@
+{
+  "info": {
+    "_postman_id": "e9daea07-0edb-421c-9fb1-953f1279fcad",
+    "name": "Github Positive Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58648425",
+    "_collection_link": "https://go.postman.co/collection/58648425-e9daea07-0edb-421c-9fb1-953f1279fcad?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Create a Repo",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "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",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Repo02 \",\r\n    \"description\": \"this is my first repository\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.github.com/user/repos",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "user",
+            "repos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update a Repo",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "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",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Repo03\",\r\n    \"description\": \"this is my first repository\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.github.com/repos/Anshulkumar011/Repo02-",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "repos",
+            "Anshulkumar011",
+            "Repo02-"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get a Repo",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "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",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/repos/Anshulkumar011/Repo03",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "repos",
+            "Anshulkumar011",
+            "Repo03"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete a Repo",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "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",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/repos/Anshulkumar011/Repo03",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "repos",
+            "Anshulkumar011",
+            "Repo03"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
