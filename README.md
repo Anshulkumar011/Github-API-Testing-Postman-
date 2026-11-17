@@ -35,4 +35,4 @@ This repository contains end-to-end API test automation scripts built using **Po
 
 ---
 Live Test Execution Report
-- 🌐 **[View Positive Testing Report](https://Anshulkumar011.github.io/Github-API-Testing-Postman-/Reports/newman-positive-report.html)**
+- 🌐 **[View Positive Testing Report](https://Anshulkumar011.github.io/Github-API-Testing-Postman-/Reports/Github-Positive-Testing-Newman-Report.html)**
